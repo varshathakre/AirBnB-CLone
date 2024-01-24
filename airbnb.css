@@ -1,0 +1,175 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav li img{
+    width: 150px;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    border-bottom: 1px solid #DDDDDD;
+}
+.nav li{
+    display: flex;
+    list-style-type: none;   
+}
+.navcenter{
+    border: 2px solid gainsboro;
+    padding: 15px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 25px red;
+    height: 20px;
+    justify-content: space-evenly;
+    
+}
+.navcenter div{
+    margin: 5px;
+}
+.scroll{
+    display: flex;
+    overflow-x: scroll;
+    width: 90%;
+    
+
+    
+
+}
+
+.scroll img{
+    width: 30px;
+    padding: 10px;
+}
+
+.scroll1::-webkit-scrollbar{
+    display: none;
+    margin: 30px;
+    padding: 50px;
+    width: 50%;
+    
+     
+}
+.parentscroll{
+   /* border: 2px solid gainsboro;*/
+    padding: 30px;
+    height: 20px;
+    justify-content: space-between;
+    
+}
+.filter{
+    border: 1px solid #DDDD;
+    padding: 10px;
+    height: 25px;
+    width: 75px;
+    border-radius: 30px;
+    margin-left: 90%;
+    margin-top: 10px;
+   
+}
+.price{
+    display: flex;
+    justify-content: center;
+    border: 2px solid gainsboro;
+    height: 20px;
+    padding: 15px;
+    width: 40%;
+    border-radius: 40px;
+    margin-left: 35%;
+    box-shadow: 3px 4px 5px rgb(9, 9, 104);
+    
+    
+    
+}
+.heading{
+    font-size: 35px;
+    color: rgb(15, 15, 78);
+    display: flex;
+    justify-content: center;
+    margin-right: 30%;
+
+}
+.star{
+    margin-left: 120px;
+    color: black;
+}
+.share{
+    display: flex;
+    margin-left: 80%;
+    margin-bottom: 0%;
+}
+.images{
+    display: flex;
+    margin-left: 100px;
+    
+}
+.image1{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 10px;
+}
+.submain{
+    border:2px solid black;
+
+}
+
+.nav2{
+    display: flex;
+    position: sticky;
+    overflow-x: hidden;
+   margin-left: 60px;
+   z-index: 2;
+    
+}
+.words{
+    width: 60%;
+}
+.page2{
+    display: flex;
+
+}
+.box{
+   border: 2px solid gainsboro;
+   width: 27%;
+   margin-left: 70px;
+   height: 400px;
+   margin-top: 20px;
+   border-radius: 40px;
+   display: flex;
+   
+
+   
+    
+    
+}
+.box div{
+    margin-bottom: 20px;
+}
+.box1{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+    
+}
+.box2{
+    margin-left: 40px;
+    margin-top: 30px;
+    
+}
+.box3{
+    border: 2px solid black;
+   height: 50%;
+   width: 90%;
+   margin-top: 40%;
+   
+   
+}
+.sleep{
+    margin-top: 40%;
+    
+}
+
+
+
+
